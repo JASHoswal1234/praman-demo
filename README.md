@@ -14,17 +14,18 @@ Then open <http://localhost:4173>. Stop the server with `Ctrl+C`. The server exp
 
 ## Demo sequence
 
-1. Open `/demo` and choose **AICTE Officer** to inspect the full seeded case set.
+1. Open `/` and select **Open sample workspace** to enter the AICTE Officer control room immediately. No login or sign-up step is used in the prototype.
 2. Inspect **FDR/26/1043** in the register, compare the declared and illustrative amount, and create a simulated confirmation request.
 3. Switch to **Bank Verifier**, open Verification, and return a match, mismatch, unable-to-confirm, or more-information response with a note. Only assigned requests appear in this workspace.
 4. Switch back to **AICTE Officer** and inspect the linked passport, scrutiny finding, and audit event.
 5. Open Maturities and record a linked successor. The predecessor stays unresolved.
 6. Open Reconciliation, run the local ledger comparison and the Overview daily sweep; inspect the evidence graph and document version fingerprint on an FDR detail.
 7. Inspect a blocked Release case, record demo clearances, make a recommendation, switch the simulated reviewer identity for checker review, then switch to **Bank Verifier** and record the separate execution confirmation. Inspect the Audit Trail.
+8. Use the bottom-right **Ask PRAMAN** button from any workspace screen. Its three deterministic prompts explain the attention queue, the FDR/26/1043 mismatch, and the FDR/24/0610 release blocker. The full Policy Copilot remains available under **Policy & rules**.
 
 The **Regional Officer** workspace is scoped to Maharashtra. The **Institution User** workspace is scoped to Aarohan Institute of Technology. These demo scopes are enforced by the client-side mock service layer for workflow consistency; they are not production authorization controls.
 
-Use the sidebar reset control to restore the fixed demo seed. Role selection is a demonstration convenience, not authentication or production authorization. All operations are local simulations; no data leaves the browser.
+Use the sidebar reset control to restore the fixed sample seed. Role selection is a presentation convenience, not authentication or production authorization. All operations are local simulations; no data leaves the browser. The former `/login` URL now routes directly to the sample workspace.
 
 ## Checks
 
