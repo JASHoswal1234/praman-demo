@@ -12,5 +12,5 @@ class StaticSpaHandler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print("Praman frontend preview: http://localhost:4173")
+    print("Pramaan frontend preview: http://localhost:4173")
     ThreadingHTTPServer(("127.0.0.1", 4173), StaticSpaHandler).serve_forever()

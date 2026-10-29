@@ -1,6 +1,6 @@
 # Landing Page Changes Summary
 
-## Task: Three Targeted Changes to Praman Landing Page
+## Task: Three Targeted Changes to Pramaan Landing Page
 
 **Date:** October 26, 2026
 **Status:** ✅ Complete

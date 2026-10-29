@@ -1,4 +1,4 @@
-# Praman UI Improvements - COMPLETE
+# Pramaan UI Improvements - COMPLETE
 
 ## ✅ **COMPLETED: Design Tokens and Base Styles**
 

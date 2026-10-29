@@ -1,4 +1,4 @@
-# Praman UI Deployment Checklist
+# Pramaan UI Deployment Checklist
 
 ## Pre-Deployment Verification ✅
 

@@ -2576,7 +2576,7 @@ tbody tr:last-child td {
 }
 
 /* ==========================================================
-   PRAMAN 2026 REDESIGN · SCIENTIFIC REGULATORY CONTROL ROOM
+   PRAMAAN 2026 REDESIGN · SCIENTIFIC REGULATORY CONTROL ROOM
    ========================================================== */
 
 :root {
@@ -2711,7 +2711,7 @@ body {
   backdrop-filter: blur(14px);
 }
 
-.praman-glyph {
+.pramaan-glyph {
   display: grid;
   place-items: center;
   width: 34px;

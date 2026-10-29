@@ -1,4 +1,4 @@
-# Praman · AICTE Security Deposit Demo
+# Pramaan · AICTE Security Deposit Demo
 
 Dependency-free frontend prototype for demo FDR scrutiny, simulated bank confirmation, maturity monitoring, and release review.
 
@@ -21,7 +21,7 @@ Then open <http://localhost:4173>. Stop the server with `Ctrl+C`. The server exp
 5. Open Maturities and record a linked successor. The predecessor stays unresolved.
 6. Open Reconciliation, run the local ledger comparison and the Overview daily sweep; inspect the evidence graph and document version fingerprint on an FDR detail.
 7. Inspect a blocked Release case, record demo clearances, make a recommendation, switch the simulated reviewer identity for checker review, then switch to **Bank Verifier** and record the separate execution confirmation. Inspect the Audit Trail.
-8. Use the bottom-right **Ask PRAMAN** button from any workspace screen. Its three deterministic prompts explain the attention queue, the FDR/26/1043 mismatch, and the FDR/24/0610 release blocker. The full Policy Copilot remains available under **Policy & rules**.
+8. Use the bottom-right **Ask PRAMAAN** button from any workspace screen. Its three deterministic prompts explain the attention queue, the FDR/26/1043 mismatch, and the FDR/24/0610 release blocker. The full Policy Copilot remains available under **Policy & rules**.
 
 The **Regional Officer** workspace is scoped to Maharashtra. The **Institution User** workspace is scoped to Aarohan Institute of Technology. These demo scopes are enforced by the client-side mock service layer for workflow consistency; they are not production authorization controls.
 
